@@ -11,3 +11,12 @@ Activiti is a light-weight workflow and Business Process Management (BPM) Platfo
 Activiti JIRA: https://activiti.atlassian.net
 
 Activiti QA: http://build.activiti.org:8080
+
+------
+Added archetypes: please under "activiti-archetype-unittest-demo"
+Directory run "mvn clean install", and then check .m2\repository\org\activiti\activiti-archetype-unittest-demo
+
+Create project base on this archetype:
+GroupId:org.activiti
+ArtifactId:activiti-archetype-unittest-demo
+Verison:6.0.0
